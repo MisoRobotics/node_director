@@ -1,0 +1,14 @@
+## This command is used to stop and then restart a node with a known id
+
+int32 id
+
+---
+int32 result_code
+int32 RESULT_SUCCESS = 0
+int32 RESULT_NODE_NOT_FOUND = 1
+int32 RESULT_ERROR_CHECKING_NODE = 2
+int32 RESULT_ERROR_KILLING_NODE = 3
+
+string exit_message
+
+int32 new_id

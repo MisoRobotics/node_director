@@ -1,0 +1,5 @@
+## This command is used to list running nodes in a NodeDirector node
+
+---
+SpawnedNodeInfo[] nodes
+

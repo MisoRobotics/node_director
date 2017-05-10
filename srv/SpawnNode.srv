@@ -1,0 +1,8 @@
+## This command is used to spawn a node from an executable name within a specified ROS package
+
+string ros_package
+string executable_name
+string[] args
+
+---
+int32 id #Zero if spawning failed
